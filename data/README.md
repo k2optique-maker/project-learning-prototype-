@@ -1,1 +1,3 @@
+Sample datasets used for experiments.
+Some files include intentionally "messy" data to simulate real-world conditions.
 
