@@ -16,7 +16,8 @@ This led me to explore knowledge graphs as a way to handle relationships and mea
 - Create a small PoC (CSV → RDF)
 - Try basic SPARQL queries
 - Explore validation approaches (e.g., SHACL) 
-## Notes This is still an early-stage exploration, and I'm learning as I go.
+## Notes
+This is still an early-stage exploration, and I'm learning as I go.
 
 # project-learning-prototype-
 このリポジトリは、私の初期段階の実験とメモを集めたものです。
@@ -36,7 +37,8 @@ DX業務を通じて、データは存在しているものの、意味、定義
 - 小規模なPoC（CSV → RDF）を作成する
 - 基本的なSPARQLクエリを試す
 - 検証手法（例：SHACL）を探る
-## 備考 これはまだ初期段階の探求であり、進めながら学んでいるところです。
+## 備考
+これはまだ初期段階の探求であり、進めながら学んでいるところです。
 
 
 DeepL.com（無料版）で翻訳しました。
