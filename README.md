@@ -1,5 +1,5 @@
 # project-learning-prototype-
-This repository is a collection of my early-stage experiments and notes.
+This repository is a collection of my early-stage experiments and notes. I am currently exploring how to model real-world project data using a semantic approach.
 # *Knowledge Graph / Semantic Web Learning Notes 
 
 ## About 
@@ -24,7 +24,8 @@ This is still an early-stage exploration, and I'm learning as I go.
 # ナレッジグラフ / セマンティックウェブ学習メモ 
 
 ## 概要
-私は現在、データ駆動型のDXやAIの基礎への関心の一環として、ナレッジグラフやセマンティック技術を研究しています。
+私はデータ駆動型のDXやAIの基礎への関心の一環として、ナレッジグラフやセマンティック技術を研究しています。目下、セマンティックなアプローチを用いて
+実際のプロジェクトデータのモデル化に取り組んでいます。
 
 ## きっかけ
 DX業務を通じて、データは存在しているものの、意味、定義、構造の不整合により再利用が難しい場合が多いことに気づきました。
