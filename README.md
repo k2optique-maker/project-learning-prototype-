@@ -3,17 +3,20 @@ This repository is a collection of my early-stage experiments and notes. I am cu
 # *Knowledge Graph / Semantic Web Learning Notes 
 
 ## About 
-I am currently exploring knowledge graphs and semantic technologies as part of my interest in data-driven DX and AI foundations.**
+I am currently exploring knowledge graphs and semantic technologies as part of my interest in data-driven DX and AI foundations.
+
 ## Problem 
 In LLMs and data integration environments, explainability is compromised when semantically inconsistent data is used without being detected.
 
-## Why I started this
-Through my work in DX, I noticed that data often exists but is hard to reuse due to inconsistencies in meaning, definitions, and structure.
-This led me to explore knowledge graphs as a way to handle relationships and meaning more explicitly.
-## What I'm trying
-- Understanding RDF / SPARQL basics
-- Exploring how to represent real-world messy data
-- Thinking about how semantic layers can support practical use cases 
+## Goal
+In this PoC, we will use semantic constraints to enable the detection of data discrepancies and verify the minimum requirements for explainability.
+
+## Scope
+The focus is on semantically structured data, with an emphasis on detectability (L0→L1) within the framework of explainability.
+
+## Approach
+We convert CSV data into RDF and attempt to detect lexical variations and semantic inconsistencies using SHACL constraints.
+
 ## Next steps
 - Create a small PoC (CSV → RDF)
 - Try basic SPARQL queries
