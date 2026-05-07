@@ -12,7 +12,8 @@ In LLMs and data integration environments, explainability is compromised when se
 In this PoC, we will use semantic constraints to enable the detection of data discrepancies and verify the minimum requirements for explainability.
 
 ## Scope
-The focus is on semantically structured data, with an emphasis on detectability (L0→L1) within the framework of explainability.
+Targeting structured data where semantic consistency is not fully guaranteed, this study focuses on detectability (L0→L1) within the broader concept of explainability.
+
 
 ## Approach
 We convert CSV data into RDF and attempt to detect lexical variations and semantic inconsistencies using SHACL constraints.
@@ -40,7 +41,7 @@ LLMやデータ統合環境では、意味的に不整合なデータが検出�
 ## 何を目指すか
 本PoCでは、意味的制約を用いてデータのズレを検出可能にし、Explainabilityの最小条件を検証する。
 ## 取組の範囲
-対象は意味的に構造化されたデータとし、Explainabilityのうち検出可能性（L0→L1）に焦点を当てる。
+意味的整合性が十分に保証されていない構造化データを対象とし、Explainabilityのうち検出可能性（L0→L1）に焦点を当てる。
 ## アプローチ
 CSVデータをRDF化し、SHACL制約により語彙揺れや意味的不整合の検出を試みる。
 ## 今後の予定
