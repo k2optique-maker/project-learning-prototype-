@@ -21,7 +21,7 @@ We convert CSV data into RDF and attempt to detect lexical variations and semant
 - Create a small PoC (CSV → RDF)
 - Try basic SPARQL queries
 - Explore validation approaches (e.g., SHACL)
-- Examining the distinction between semantic consistency and the identity problem
+- Examine the distinction between semantic consistency and the identity problem
 ## Notes
 This is still an early-stage exploration, and I'm learning as I go.
 
