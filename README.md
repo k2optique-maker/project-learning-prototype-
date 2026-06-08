@@ -15,7 +15,7 @@ The goal of this Proof of Concept (PoC) is to establish a lightweight data gover
 Targeting distributed, structured data where semantic consistency is not fully guaranteed, this study focuses on data detectability (L0→L1) within the broader concept of enterprise explainability. 
 
 ## 💡 Approach & Theoretical Foundation
-While Ziegler (2020) conceptually discussed intelligent semantic content delivery (e.g., *microDocs*), our framework provides a concrete, lightweight implementation protocol using W3C standards (RDF/SHACL) to bridge the gap between theory and execution. We convert raw CSV data into RDF graphs and attempt to detect lexical variations and semantic inconsistencies automatically via SHACL constraints. 
+While Ziegler (2020) conceptually discussed intelligent semantic content delivery (e.g., *microDocs*), this framework provides a concrete, lightweight implementation protocol using W3C standards (RDF/SHACL) to bridge the gap between theory and execution. We convert raw CSV data into RDF graphs and attempt to detect lexical variations and semantic inconsistencies automatically via SHACL constraints. 
 
 This approach serves as a decentralized "building block" designed to scale into modern data engineering infrastructures such as DataOps pipelines, Change Data Capture (CDC), and Model Context Protocol (MCP).
 
