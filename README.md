@@ -33,28 +33,4 @@ While Ziegler (2020) conceptually discussed semantic content delivery, our frame
 This is still an early-stage exploration, and I'm learning as I go.
 
 
-# project-learning-prototype-
-このリポジトリは、私の初期段階の実験とメモを集めたものです。目下、セマンティックなアプローチを用いて
-実際のプロジェクトデータのモデル化に取り組んでいます。
-
-# ナレッジグラフ / セマンティックウェブ学習メモ 
-
-## 概要
-私はデータ駆動型のDXやAIの基礎への関心の一環として、ナレッジグラフやセマンティック技術を研究しています。
-
-## 何が問題か
-LLMやデータ統合環境では、意味的に不整合なデータが検出されないまま利用されることで、Explainabilityが損なわれる。
-## 何を目指すか
-本PoCでは、意味的制約を用いてデータのズレを検出可能にし、Explainabilityの最小条件を検証する。
-## 取組の範囲
-意味的整合性が十分に保証されていない構造化データを対象とし、Explainabilityのうち検出可能性（L0→L1）に焦点を当てる。
-## アプローチ
-CSVデータをRDF化し、SHACL制約により語彙揺れや意味的不整合の検出を試みる。
-## 今後の予定
-- 小規模なPoC（CSV → RDF）を作成する
-- 基本的なSPARQLクエリを試す
-- 検証手法（例：SHACL）を探る
-- semantic consistency と identity problem の切り分け検討
-## 備考
-これはまだ初期段階の探求であり、進めながら学んでいるところです。
 
