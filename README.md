@@ -14,9 +14,8 @@ In this PoC, we will use semantic constraints to enable the detection of data di
 ## Scope
 Targeting structured data where semantic consistency is not fully guaranteed, this study focuses on detectability (L0→L1) within the broader concept of explainability.
 
-
 ## Approach
-We convert CSV data into RDF and attempt to detect lexical variations and semantic inconsistencies using SHACL constraints.
+While Ziegler (2020) conceptually discussed semantic content delivery, our framework provides a concrete, lightweight implementation protocol using RDF/SHAC. We convert CSV data into RDF and attempt to detect lexical variations and semantic inconsistencies using SHACL constraints.
 
 ## 📈 Progress & Milestones
 
