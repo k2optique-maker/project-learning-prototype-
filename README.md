@@ -32,5 +32,10 @@ The current protocol is the result of a continuous, rigorous refactoring of the 
   - Validated basic retrieval via standard SPARQL queries, ensuring the environment is fully operational.
   - Visually confirmed "data fragmentation" (vocabulary mismatch) in the results, where conceptually identical nodes were split due to notation inconsistency. This perfectly demonstrated the real-world pain point of dead explicit knowledge.
 
-## 🚀 Next Steps
-- **Phase 2:** Introduce the custom SHACL shape (`naming-shape.ttl`) utilizing regular expressions (`sh:pattern`) to automatically detect these identity and structural inconsistencies under a strict constraint rule.
+## 🚀 Next Steps & Evolutionary Roadmap
+
+While the primary scope of this Master's research is strictly focused on establishing the core logic of the minimal protocol (**Phase 2**), the framework is conceptually engineered to scale into a multi-stage enterprise adoption process:
+
+- **Phase 2 [Immediate]:** Introduce the custom SHACL shape (`naming-shape.ttl`) utilizing regular expressions (`sh:pattern`) to automatically detect identity and structural inconsistencies under a strict constraint rule.
+- **Phase 3 [Agile Adoption Strategy - LPG Co-existence]:** Incorporate a lightweight **Labeled Property Graph (LPG)** layer (e.g., Neo4j/Memgraph) as an entry-level visualization tool. By utilizing LPG's schema-less nature to fast-track the "visual representation of fragmented data" (seeing is believing), this phase serves as an agile adoption hook to awaken organizational demand for data governance without demanding immediate top-down ontology compliance.
+- **Phase 4 [Enterprise Scale & Cross-Border Evolution]:** Elevate the verified, high-purity data from the minimal protocol into a decentralized "building block" (Data Space) required for complex cross-border scenarios like M&A (PMI) and carve-outs. This tier natively scales into modern DataOps pipelines, Change Data Capture (CDC), and Model Context Protocol (MCP) to supply trusted, AI-ready assets to black-box LLMs.
