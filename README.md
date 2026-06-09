@@ -34,8 +34,8 @@ The current protocol is the result of a continuous, rigorous refactoring of the 
 
 ## 🚀 Next Steps & Evolutionary Roadmap
 
-While the primary scope of this Master's research is strictly focused on establishing the core logic of the minimal protocol (**Phase 2**), the framework is conceptually engineered to scale into a multi-stage enterprise adoption process:
+While the primary scope of this Master's research is strictly limited to verifying the core validation logic of the minimal protocol (**Phase 2**), the framework conceptually designs a multi-stage enterprise adoption model to ensure usability:
 
-- **Phase 2 [Immediate]:** Introduce the custom SHACL shape (`naming-shape.ttl`) utilizing regular expressions (`sh:pattern`) to automatically detect identity and structural inconsistencies under a strict constraint rule.
-- **Phase 3 [Agile Adoption Strategy - LPG Co-existence]:** Incorporate a lightweight **Labeled Property Graph (LPG)** layer (e.g., Neo4j/Memgraph) as an entry-level visualization tool. By utilizing LPG's schema-less nature to fast-track the "visual representation of fragmented data" (seeing is believing), this phase serves as an agile adoption hook to awaken organizational demand for data governance without demanding immediate top-down ontology compliance.
-- **Phase 4 [Enterprise Scale & Cross-Border Evolution]:** Elevate the verified, high-purity data from the minimal protocol into a decentralized "building block" (Data Space) required for complex cross-border scenarios like M&A (PMI) and carve-outs. This tier natively scales into modern DataOps pipelines, Change Data Capture (CDC), and Model Context Protocol (MCP) to supply trusted, AI-ready assets to black-box LLMs.
+- **Phase 2 [Immediate / Current Scope]:** Introduce the custom SHACL shape (`naming-shape.ttl`) utilizing regular expressions (`sh:pattern`) to automatically detect identity and structural inconsistencies. *This research focuses entirely on this phase to secure academic rigor within the Master's timeline.*
+- **Future Work [Conceptual Adoption Strategy - LPG Integration]:** Propose a hybrid transition roadmap where a lightweight **Labeled Property Graph (LPG)** layer (e.g., Neo4j/Memgraph) can be deployed prior to RDF conversion. Utilizing LPG's schema-less nature functions as a visual adoption hook (seeing is believing) to awaken organizational demand for data governance, enhancing the long-term usability and scalability into DataOps pipelines without increasing immediate implementation overhead.
+
