@@ -19,6 +19,19 @@ While Ziegler (2020) conceptually discussed intelligent semantic content deliver
 
 This approach serves as a decentralized "building block" designed to scale into modern data engineering infrastructures such as DataOps pipelines, Change Data Capture (CDC), and Model Context Protocol (MCP).
 
+## Research Origin & Evolution (Timeline)
+
+The current "Minimal Semantic Refinement Protocol" is the result of a continuous, rigorous refactoring of the core research question, shifting from a conventional data integration mindset to a rigorous academic framework:
+
+- **Phase 0-A: Initial Skepticism & Discovery (~6 Months Ago)**
+  - Started with a fundamental question against the mainstream enterprise discourse: *"Does simply centralizing and integrating data truly unlock its value?"* 
+  - This skepticism led to the discovery of Semantic Web technologies, where the initial goal was simply to verify how to construct a standard Knowledge Graph (KG) to solve data reuse problems.
+- **Phase 0-B: Academic Refining & The Quest for Novelty (3 Months Ago)**
+  - Upon entering the graduate research environment (JAIST), the focus shifted from mere system engineering ("just building a KG") to pursuing true academic novelty.
+  - Deep-dive analysis revealed that feeding semantically inconsistent, fragmented explicit knowledge into black-box LLMs severely compromises explainability. The question evolved into: *"How can we mechanically govern distributed data to make it strictly AI-ready?"*
+- **Phase 1: Arrival at the Minimal Protocol (Current / June 2026)**
+  - Arrived at the definitive conclusion: A heavyweight, top-down ontology is unsustainable. The realistic, novel counter-offer is a lightweight, bottom-up approach: **"CSV ➡️ RDF ➡️ SHACL."**
+
 ## Progress & Milestones
 
 ### [Phase 1 Complete] RDF Graph Storage & Base Extraction Verification (June 2026)
