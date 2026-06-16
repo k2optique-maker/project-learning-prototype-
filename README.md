@@ -11,21 +11,3 @@ Crucially, while the scalable execution of this protocol naturally enables autom
 
 *I am currently exploring these knowledge graphs and semantic technologies as part of my Master's research in Knowledge Science (JAIST), advancing step-by-step through agile implementation.*
 
-
-
-## 📈 Progress & Milestones
-
-### 🟢 [Phase 1 Complete] RDF Graph Storage & Base Extraction Verification (June 2026)
-- **Environment:** Successfully set up a local standalone server using **Apache Jena Fuseki (v5.6.0)**.
-- **Data Injection:** Injected a 10-triple explicit knowledge dataset representing infrastructure project silos.
-- **Results:** 
-  - Validated basic retrieval via standard SPARQL queries, ensuring the environment is fully operational.
-  - Visually confirmed "data fragmentation" (vocabulary mismatch) in the results, where conceptually identical nodes were split due to notation inconsistency. This perfectly demonstrated the real-world pain point of dead explicit knowledge.
-
-## 🚀 Next Steps & Evolutionary Roadmap
-
-While the primary scope of this Master's research is strictly limited to verifying the core validation logic of the minimal protocol (**Phase 2**), the framework conceptually designs a multi-stage enterprise adoption model to ensure usability:
-
-- **Phase 2 [Immediate / Current Scope]:** Introduce the custom SHACL shape (`naming-shape.ttl`) utilizing regular expressions (`sh:pattern`) to automatically detect identity and structural inconsistencies. *This research focuses entirely on this phase to secure academic rigor within the Master's timeline.*
-- **Future Work [Conceptual Adoption Strategy - LPG Integration]:** Propose a hybrid transition roadmap where a lightweight **Labeled Property Graph (LPG)** layer (e.g., Neo4j/Memgraph) can be deployed prior to RDF conversion. Utilizing LPG's schema-less nature functions as a visual adoption hook (seeing is believing) to awaken organizational demand for data governance, enhancing the long-term usability and scalability into DataOps pipelines without increasing immediate implementation overhead.
-
