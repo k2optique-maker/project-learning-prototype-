@@ -15,3 +15,6 @@ feat: complete Phase 1 PoC - initial RDF storage and SPARQL verification
 
 ## 2026-06-09
 - Updated initial README
+
+## 2026-06-16
+- Updated initial README
