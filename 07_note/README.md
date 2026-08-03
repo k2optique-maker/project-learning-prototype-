@@ -22,3 +22,14 @@ feat: complete Phase 1 PoC - initial RDF storage and SPARQL verification
 ## 2026-06-24
 - Neo4j Aura Introduction
 
+## 2026-08-03
+
+### Environment Setup
+- Installed Protégé Desktop 5.6.9
+- Confirmed successful startup
+- Created first ontology
+- Created initial class
+- Saved ontology (.owl)
+
+### Notes
+- Confirmed local Protégé environment for future ontology and SHACL design.
